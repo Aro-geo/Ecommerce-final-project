@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoleEssence - Premium Footwear</title>
+    <meta name="description" content="Premium footwear for every occasion">
+    <meta name="author" content="SoleEssence">
+    
+    <meta property="og:title" content="SoleEssence - Premium Footwear">
+    <meta property="og:description" content="Premium footwear for every occasion">
+    <meta property="og:type" content="website">
+    
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="/" class="logo">SoleEssence</a>
+                
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="nav-links">
+                    <a href="/womens" class="nav-item">Women's Shoes</a>
+                    <a href="/mens" class="nav-item">Men's Shoes</a>
+                    <a href="/kids" class="nav-item">Kids' Shoes</a>
+                    <a href="/summer" class="nav-item">Summer Styles</a>
+                    <a href="/formal" class="nav-item">Formal Wear</a>
+                    <a href="/essentials" class="nav-item">Everyday Essentials</a>
+                </div>
+
+                <div class="nav-actions">
+                    <a href="/account" class="icon-btn" aria-label="Account">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </a>
+                    <a href="/cart" class="icon-btn" aria-label="Cart">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content container">
+                <h1>Elevate Your Everyday Look</h1>
+                <p>Find your go-to shoes for daily wear. From comfortable sneakers to chic flats, our Everyday Essentials collection combines style and comfort for effortless everyday elegance.</p>
+                <a href="/essentials" class="btn btn-primary">Explore Essentials</a>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Collection</h2>
+                    <a href="/featured" class="view-all">View All</a>
+                </div>
+                <div class="product-grid" id="featuredProducts"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>SoleEssence</h3>
+                    <p>Premium footwear for every occasion. Quality materials, timeless designs, unmatched comfort.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="/womens">Women's Shoes</a></li>
+                        <li><a href="/mens">Men's Shoes</a></li>
+                        <li><a href="/kids">Kids' Shoes</a></li>
+                        <li><a href="/formal">Formal Wear</a></li>
+                        <li><a href="/essentials">Everyday Essentials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="/faq">FAQs</a></li>
+                        <li><a href="/shipping">Shipping & Returns</a></li>
+                        <li><a href="/sizing">Sizing Guide</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect</h3>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <label for="email">Subscribe to our newsletter</label>
+                        <div class="input-group">
+                            <input type="email" id="email" placeholder="Your email">
+                            <button type="submit" class="btn btn-gold">Join</button>
+                        </div>
+                    </form>
+                    <div class="social-links">
+                        <a href="https://facebook.com">Facebook</a>
+                        <a href="https://instagram.com">Instagram</a>
+                        <a href="https://twitter.com">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> SoleEssence. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/products.js"></script>
+</body>
+</html>
