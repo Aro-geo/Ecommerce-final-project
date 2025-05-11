@@ -36,7 +36,7 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Aro-geo/Ecommerce-project.git
+   git clone https://github.com/Aro-geo/Ecommerce-final-project.git
    
    ```
 
